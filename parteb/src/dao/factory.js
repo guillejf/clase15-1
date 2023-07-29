@@ -15,6 +15,7 @@ switch (config.persistence) {
   case 'MEMORY':
     console.log('Persistence with Memory');
     const { default: ContactsMemory } = await import('./memory/contacts.memory.js');
+
     Contacts = ContactsMemory;
 
     break;

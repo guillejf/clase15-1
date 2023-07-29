@@ -1,6 +1,6 @@
 import ContactDTO from '../dao/DTO/contacts.dto.js';
 
-export default class ContactRepository {
+export default class ContactService {
   constructor(dao) {
     this.dao = dao;
   }
